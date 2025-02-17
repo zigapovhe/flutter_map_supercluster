@@ -30,16 +30,16 @@ abstract class ClusterSplayDelegate {
   List<DisplacedMarker> displaceMarkers(
     List<Marker> markers, {
     required LatLng clusterPosition,
-    required Point Function(LatLng latLng) project,
-    required LatLng Function(Point point) unproject,
+    required Offset Function(LatLng latLng) project,
+    required LatLng Function(Offset point) unproject,
   });
 
   /// Calculate the marker offsets at the given [animationProgress].
   List<DisplacedMarkerOffset> displacedMarkerOffsets(
     List<DisplacedMarker> displacedMarkers,
     double animationProgress,
-    Point<num> Function(LatLng point) getPixelOffset,
-    Point clusterPosition,
+    Offset Function(LatLng point) getPixelOffset,
+    Offset clusterPosition,
   );
 
   /// Create an optional decoration such as lines from the markers to the
