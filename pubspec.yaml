@@ -15,7 +15,7 @@ dependencies:
   equatable: ^2.0.7
   flutter:
     sdk: flutter
-  flutter_map: ^8.0.0
+  flutter_map: ^8.1.0
   flutter_map_marker_popup:
     git:
       url: https://github.com/joaovvrodrigues/flutter_map_marker_popup.git
