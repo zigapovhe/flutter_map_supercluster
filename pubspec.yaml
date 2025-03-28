@@ -15,14 +15,17 @@ dependencies:
   equatable: ^2.0.7
   flutter:
     sdk: flutter
-  flutter_map: ^8.1.0
+  flutter_map: ^8.1.1
   flutter_map_marker_popup:
     git:
       url: https://github.com/joaovvrodrigues/flutter_map_marker_popup.git
       ref: upgrade_flutter_map_v8
   latlong2: ^0.9.1
-  provider: ^6.1.2
-  supercluster: ^3.1.0
+  provider: ^6.1.4
+  supercluster:
+    git:
+      url: https://github.com/l1qu1d/supercluster_dart.git
+      ref: 7572f6a
 
 dev_dependencies:
   flutter_lints: ^5.0.0
